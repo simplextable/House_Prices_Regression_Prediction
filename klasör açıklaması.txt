@@ -1,0 +1,5 @@
+klasör açıklaması: house'un github'a yüklediğimiz ve ve kaggle'dan en yüksek puan aldığımız versiyonu house4.py dosyası
+
+v001: pytorch ile yapılmış hali. burada accuracy değerleri yok sadece.
+
+

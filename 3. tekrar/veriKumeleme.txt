@@ -1,0 +1,50 @@
+Standize : **LotFrontage ,**LotArea, **YearBuilt, **	
+MasVnrArea , BsmtFinSF1 , BsmtFinSF2, BsmtUnfSF, TotalBsmtSF(önceki iki verinin toplanmış hali)
+1stFlrSF ,  2ndFlrSF , LowQualFinSF, GrLivArea , 
+GarageYrBlt?, GarageArea , WoodDeckSF , OpenPorchSF , EnclosedPorch , 3SsnPorch , ScreenPorch
+PoolArea , MiscVal , 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Label : LotShape , LandContour ,  LandSlope , *OverallQual, *OverallCond, ExterQual ,
+ExterCond , BsmtQual, BsmtCond? ,BsmtExposure? , BsmtFinType1? , BsmtFinType2? ,  
+HeatingQC , CentralAir , Kitchen ,  KitchenQual , Fireplaces , FireplaceQu
+Bedroom , TotRmsAbvGrd ? , GarageFinish(droplancak mı ), GarageCars , GarageQual, GarageCond
+PoolQC?,Fence?, 
+
+
+
+
+
+
+incelenecek veri muhtemel concat : Condition1, Condition2  , Exterior1st , Exterior2nd,
+BsmtFullBath , BsmtHalfBath , FullBath , HalfBath,Exterior2nd
+
+
+
+
+
+
+???????? : MoSold , YrSold
+drop : BsmtFinSF1, BsmtFinSF2, BsmtUnfSF 
+
+
+
+
+//eksik verilere 0 basılacak : LotFrontage , Alley , MasVnrType , BsmtQual ,  
+BsmtCond , BsmtExposure , FireplaceQu, GarageFinish, GarageQual , GarageCond 
+BsmtFinType1 , BsmtFinType2 , GarageType , GarageFinish, PoolQC , Fence
+MiscFeature, Functional, KitchenQual, TotalBsmtSF, Exterior1st
+
